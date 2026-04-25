@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merchandise | Kurt Cobain Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="merchandise">
+  <div class="ambient"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-kicker">Nirvana Era</span>
+      <span class="brand-title">Kurt Cobain Archive</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="biography.html">Biography</a>
+      <a class="active" href="merchandise.html">Merchandise</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="basket.html">Basket <span class="cart-badge" data-cart-count>0</span></a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="panel reveal merch-intro">
+      <h1>Official Merch Collection</h1>
+      <p>Choose an item and add it to your basket. Your basket is shared across pages.</p>
+    </section>
+
+    <section class="merch-grid">
+      <article class="merch-card reveal">
+        <img src="images/cobainposter.jpg" alt="Kurt Cobain poster">
+        <h2>Kurt Cobain Poster</h2>
+        <p class="price">$15.00</p>
+        <button class="btn-add" data-add-id="poster">Add to Basket</button>
+      </article>
+
+      <article class="merch-card reveal">
+        <img src="images/cobain.hoodie.png" alt="Kurt Cobain hoodie">
+        <h2>Kurt Cobain Hoodie</h2>
+        <p class="price">$45.00</p>
+        <button class="btn-add" data-add-id="hoodie">Add to Basket</button>
+      </article>
+
+      <article class="merch-card reveal">
+        <img src="images/cobainguitar.png" alt="Cobain style electric guitar">
+        <h2>Cobain Style E Guitar</h2>
+        <p class="price">$299.00</p>
+        <button class="btn-add" data-add-id="guitar">Add to Basket</button>
+      </article>
+
+      <article class="merch-card reveal">
+        <img src="images/Nirvana.jpg.webp" alt="Nevermind album cover">
+        <h2>Nevermind Album Print</h2>
+        <p class="price">$25.00</p>
+        <button class="btn-add" data-add-id="album">Add to Basket</button>
+      </article>
+
+      <article class="merch-card reveal">
+        <img src="images/cobainvinyl.png" alt="Nirvana vinyl record">
+        <h2>Nirvana Vinyl Edition</h2>
+        <p class="price">$31.00</p>
+        <button class="btn-add" data-add-id="vinyl">Add to Basket</button>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

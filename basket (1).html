@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket | Kurt Cobain Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="basket">
+  <div class="ambient"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-kicker">Nirvana Era</span>
+      <span class="brand-title">Kurt Cobain Archive</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="biography.html">Biography</a>
+      <a href="merchandise.html">Merchandise</a>
+      <a href="reviews.html">Reviews</a>
+      <a class="active" href="basket.html">Basket <span class="cart-badge" data-cart-count>0</span></a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="panel reveal">
+      <h1>Your Basket</h1>
+      <p>Review your selected items and clear the basket at any time.</p>
+    </section>
+
+    <section class="panel basket-panel reveal">
+      <ul class="basket-items" data-basket-items></ul>
+      <p class="basket-empty" data-basket-empty>Your basket is currently empty.</p>
+      <p class="basket-total">Total: <span data-basket-total>$0.00</span></p>
+      <button class="btn-clear" data-clear-basket>Clear Basket</button>
+    </section>
+  </main>
+</body>
+</html>
